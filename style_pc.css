@@ -1,6 +1,6 @@
 *{
     font-family: cursive;
-    transition: all 1s ease;
+    transition: all 0.4s ease;
 }
 
 body {
@@ -131,6 +131,7 @@ body {
    border: 1px solid #DDDDDC;
    color: #dddddd;
    border-radius: 5px;
+   
 }
 
 .scrinRols{
@@ -139,7 +140,10 @@ body {
    z-index: 3;
    position: absolute;
    width: 100%;
+   display: none;
 } 
+
+
 
 .contetn {
    height: 375px;
@@ -171,5 +175,17 @@ body {
 .rulesTitle span{
    margin-right: 25px;
    font-size: x-large;
+   cursor: pointer;
+   padding: 7px;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.rulesTitle span:hover{
+   background-color: #dddddd;
 }
 }
