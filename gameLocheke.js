@@ -6,12 +6,21 @@ let scissors = document.querySelector(`.scissors`);
 
 let rock = document.querySelector(`.rock`);
 
-function game(){
-    choice.innerHTML = `
-    <div>hello</ div>
-    `
-}
+let theChoicess = document.querySelectorAll(`.theChoice`);
 
-paper.addEventListener(`click`,()=>{
-    game();
-})
+let img = document.querySelectorAll(`.theChoice img`);
+
+
+theChoicess.forEach((choiceEl) => {
+  choiceEl.addEventListener("click", (e) => {
+    // اخفاء باقي العناصر
+    theChoicess.forEach((el) => {
+      if (el !== e.currentTarget) {
+        el.classList.add("hide");
+      }
+    });
+
+    // تكبير وتحريك العنصر المختار
+    e.currentTarget.classList.add("selected");
+  });
+});

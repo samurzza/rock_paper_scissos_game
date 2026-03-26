@@ -188,4 +188,15 @@ body {
 .rulesTitle span:hover{
    background-color: #dddddd;
 }
+
+.hide {
+   opacity: 0;
+   transform: scale(0);
 }
+
+.selected {
+   transform: scale(1.4) translate(-50%, 50px);
+   z-index: 5;
+}
+}
+
