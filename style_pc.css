@@ -194,9 +194,50 @@ body {
    transform: scale(0);
 }
 
-.selected {
-   transform: scale(1.4) translate(-50%, 50px);
-   z-index: 5;
+.playert ,.robot{
+   border-radius: 50%;
+   width: 130px;
+   height: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   cursor: pointer;
 }
+
+.paperPlay {
+   /* الورقة في أعلى اليسار */
+   border: 19px solid hsl(230, 89%, 62%);
+   box-shadow: hsl(229, 64%, 46%) 0px 5px 2px 2px,
+      inset hsl(0deg 0% 86.77%) 0px 5px 2px 2px;
+}
+
+.scissorsPlay {
+   /* المقص في أعلى اليمين */
+   border: 19px solid hsl(39, 89%, 49%);
+   box-shadow: hsl(28, 76%, 44%) 0px 5px 2px 2px,
+      inset hsl(0deg 0% 86.77%) 0px 5px 2px 2px;
+}
+
+.rockPlay {
+   border: 19px solid hsl(349, 71%, 52%);
+   box-shadow: hsl(347, 75%, 35%) 0px 5px 2px 2px,
+      inset hsl(0deg 0% 86.77%) 0px 5px 2px 2px;
+}
+
+.game{
+         opacity: 0;
+            transform: scale(0);
+   width: 600px;
+   height: 200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
 }
 
