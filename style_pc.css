@@ -204,6 +204,40 @@ body {
    background-color: white;
    cursor: pointer;
 }
+.robott{
+   border-radius: 50%;
+   width: 130px;
+   height: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(67, 67, 67);
+   cursor: pointer;
+
+   border: 19px solid rgb(106, 106, 106);
+   box-shadow: rgb(73, 68, 68) 0px 5px 2px 2px,
+   inset hsl(0deg 0% 86.77%) 0px 5px 2px 2px;
+}
+
+.numberDown{
+   font-family: fantasy;
+   font-size: xxx-large;
+   color: #b5b5b5;
+}
+
+.texe{
+   width: 600px;
+   height: 200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: larger;
+}
 
 .paperPlay {
    /* الورقة في أعلى اليسار */
@@ -226,8 +260,7 @@ body {
 }
 
 .game{
-         opacity: 0;
-            transform: scale(0);
+   opacity: 0;
    width: 600px;
    height: 200px;
    display: flex;
