@@ -186,10 +186,6 @@ function GameResult(){
 });
 
 
-
-
-
-
 resetGameResety.addEventListener(`click`, ()=>{
   document.querySelectorAll(".playert, .robot").forEach((el) => el.remove());
   texe.textContent = "";
