@@ -121,7 +121,7 @@ function GameResult(){
     scoreSpane.textContent = +scoreSpane.textContent + 1 
     resetGameResety.classList.remove(`hide`);
   } else if (result === `lose`){
-    robotChoiceImg.classList.add(`winer`);
+    robotChoiceImg.classList.add(`winerRed`);
     console.log(scoreSpane); 
     resetGameH4.textContent = "YOU LOSE";
     resetGameResety.classList.remove(`hide`);

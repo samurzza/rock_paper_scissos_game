@@ -1,49 +1,49 @@
 
 @media (min-width:180px) and (max-width:775px) {
 
- .ditelse{
-    margin: 15px auto;
-    width: 90%;
-    border: 3px solid hsl(229, 25%, 31%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    border-radius: 5px ;
- }
+.ditelse{
+   margin: 15px auto;
+   width: 90%;
+   border: 3px solid hsl(229, 25%, 31%);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+   border-radius: 5px ;
+}
 
- .ditelse ul li {
-    list-style: none;
- }
+.ditelse ul li {
+   list-style: none;
+}
 
- .ditelse ul {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    color: white;
-    
- }
+.ditelse ul {
+   display: inline;
+   margin: 0;
+   padding: 0;
+   color: white;
+   
+}
 
- div.score {
-    border-radius: 5px;
-    width: 25%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
- }
+div.score {
+   border-radius: 5px;
+   width: 25%;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 5px;
+}
 
- div.score p {
-    margin: 0;
-    color: hsl(229, 64%, 46%);
- }
+div.score p {
+   margin: 0;
+   color: hsl(229, 64%, 46%);
+}
 
- div.score span {
-    font-size: 30px;
-    font-family: fantasy;
-    color: hsl(246, 11%, 37%);
- }
+div.score span {
+   font-size: 30px;
+   font-family: fantasy;
+   color: hsl(246, 11%, 37%);
+}
 
 /* الحاوية الرئيسية للمثلث والأيقونات */
 .choice {
@@ -160,18 +160,18 @@
 }
 
 .rulesTitle span{
-        margin-right: 25px;
-        font-size: x-large;
-        padding: 7px;
-        border-radius: 50%;
-        width: 25px;
-        height: 25px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: translate(45px, 400px);
-        background-color: #dddd;
-    }
+   margin-right: 25px;
+   font-size: x-large;
+   padding: 7px;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translate(45px, 400px);
+   background-color: #dddd;
+}
 
 
 .hide {
@@ -199,7 +199,7 @@
 }
 
 .playert img,.robot img , .theChoice img{
-    width: 40px;
+   width: 40px;
 }
 
 .robot , .robott {

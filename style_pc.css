@@ -300,6 +300,14 @@ body {
    animation-iteration-count: infinite;
 
 }
+
+.winerRed {
+   /* animation-name: winer; */
+   animation: moveRed 3s;
+   animation-iteration-count: infinite;
+
+}
+
 @keyframes move {
 0% {
    box-shadow: 0px 0px 0px 35px oklch(91.887% 0.0001 271.152 / 0.16), 0px 1px 0px 70px #ededed15 , 0px 1px 0px 115px #dddddd26;
@@ -313,6 +321,23 @@ body {
 
 100% {
    box-shadow: 0px 0px 0px 35px oklch(91.887% 0.0001 271.152 / 0.16), 0px 1px 0px 70px #ededed15 , 0px 1px 0px 115px #dddddd26;
+   border-radius: 50%;
+   }
+}
+
+@keyframes moveRed {
+0% {
+   box-shadow: 0px 0px 0px 35px oklch(66.161% 0.22493 25.863 / 0.16), 0px 1px 0px 70px #ff555515 , 0px 1px 0px 115px #ff6b6b26;
+   border-radius: 50%;   
+   }
+
+50% {
+   box-shadow: 0px 0px 0px 115px oklch(66.161% 0.22493 25.863 / 0.16), 0px 1px 0px 170px #ff555515 , 0px 1px 0px 210px #ff6b6b26;
+   border-radius: 50%;
+   }
+
+100% {
+   box-shadow: 0px 0px 0px 35px oklch(66.161% 0.22493 25.863 / 0.16), 0px 1px 0px 70px #ff555515 , 0px 1px 0px 115px #ff6b6b26;
    border-radius: 50%;
    }
 }
