@@ -5,7 +5,7 @@
 
 body {
     background: linear-gradient(180deg , hsl(214, 47%, 23%)  , hsl(237, 48%, 15%) );
-    height: 100dvh;
+    height: 95dvh;
     /* width: 100%; */
 }
 @media (min-width:410px) {

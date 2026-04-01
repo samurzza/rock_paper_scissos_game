@@ -182,7 +182,7 @@
 .playert {
    grid-area: "player";
    position: relative;
-   top: 10%;
+   top: 13vh;
    left: 35%;
    transform: translate(-50%, -50%);
 }
@@ -204,7 +204,7 @@
 
 .robot , .robott {
    position: relative;
-   top: 10%;
+   top: 13vh;
    left: 60%;
    transform: translate(-50%, -50%);
 }
@@ -286,7 +286,7 @@
    justify-content: space-between;
    align-items: center;
    position: absolute;
-   top: 41%;
+   top: 49vh;
    left: 48%;
    transform: translate(-50%, -50%);
    color: white;
