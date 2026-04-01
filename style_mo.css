@@ -179,6 +179,14 @@
    transform: scale(0);
 }
 
+.playert {
+   grid-area: "player";
+   position: relative;
+   top: 10%;
+   left: 35%;
+   transform: translate(-50%, -50%);
+}
+
 .playert ,.robot{
    border-radius: 50%;
    width: 80px;
@@ -194,7 +202,15 @@
     width: 40px;
 }
 
+.robot , .robott {
+   position: relative;
+   top: 10%;
+   left: 60%;
+   transform: translate(-50%, -50%);
+}
+
 .robott{
+   grid-area: "robot";
    border-radius: 50%;
    width: 80px;
    height: 80px;
@@ -217,13 +233,16 @@
 
 .resetGame .resety {
    border-radius: 10px;
-   height: 40px;
+   height: 70px;
+   width: 250px;
+   margin: auto;
    font-size: larger;
    font-family: sans-serif;
 }
 
 .resetGame h4 {
-   font-size: large;
+   text-align: center;
+   font-size: xxx-large;
    padding: 0;
    margin: 0;
    font-family: sans-serif;
@@ -232,22 +251,43 @@
 }
 
 .resetGame {
-   height: 100%;
-   
+   height: 50%;
+   grid-area: playAgain;
    display: inline-flex;
    flex-direction: column;
    justify-content: space-around;
 }
 
+.game{
+   opacity: 0;
+   width: 90%;
+   height: 550px;
+   /* display: flex;
+   justify-content: space-between; */
+
+   display: grid;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   grid-auto-flow: column; 
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-template-areas: 
+   "player robot" 
+   "playAgain playAgain";
+}
+
 .texe{
-   width: 100%;
-   height: 200px;
+   width: 95%;
+   height: 100px;
    display: flex;
    justify-content: space-between;
    align-items: center;
    position: absolute;
-   top: 35%;
-   left: 50%;
+   top: 41%;
+   left: 48%;
    transform: translate(-50%, -50%);
    color: white;
    font-size: larger;
@@ -273,18 +313,6 @@
       inset hsl(0deg 0% 86.77%) 0px 5px 2px 2px;
 }
 
-.game{
-   opacity: 0;
-   width: 90%;
-   height: 200px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
 
 }
 

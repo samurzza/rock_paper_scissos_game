@@ -10,10 +10,6 @@ body {
 }
 @media (min-width:410px) {
 
-   .on{
-      left: -700px;
-   }
-
  .ditelse{
     margin: 15px auto;
     width: 60%;
