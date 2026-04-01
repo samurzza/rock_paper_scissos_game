@@ -115,13 +115,13 @@ function GameResult(){
   if(result === `noWiner`){
     resetGameH4.textContent = "NO WINER";
     resetGameResety.classList.remove(`hide`);
-    console.log(scoreSpane); 
   } else if(result === `winer`){
+    player.classList.add(`winer`);
     resetGameH4.textContent = "YOU WINER";
-    console.log(scoreSpane);
     scoreSpane.textContent = +scoreSpane.textContent + 1 
     resetGameResety.classList.remove(`hide`);
   } else if (result === `lose`){
+    robotChoiceImg.classList.add(`winer`);
     console.log(scoreSpane); 
     resetGameH4.textContent = "YOU LOSE";
     resetGameResety.classList.remove(`hide`);
